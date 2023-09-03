@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    
+
+}
+.nav-bar img{
+    width: 30px;
+ }
+.nav-bar ul {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.nav-bar ul li{
+    list-style: none;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container h1{
+    font-size: 36px;
+    padding-top: 20px;
+    text-align: center;
+}
+.main-container h3{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+.main-container button{
+    padding: 20px;
+    width: 70x;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    color: blue;
+}
+.main-container button:hover{
+    padding: 20px;
+    width: 70x;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    color: blue;
+    background-color: rgb(161, 160, 160);
+}
+.main-container img{
+    padding: 30px;
+
+}
+.second-container{
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.right-section{
+    width: 49%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.left-section{
+    width: 49%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.white{
+    width: 49%;
+    height: 100vh;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.right-section h1{
+    padding: 10px;
+    font-size: 36px;
+}
+.right-section h3{
+    padding: 10px;
+    font-size: 18px;
+}
+.right-section span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.right-section span img{
+    width: 40px;
+}
+.right-section button{
+    padding: 20px;
+    color: blue;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+}
+.right-section img{
+    width: 1000px;
+
+}
+.apple-img img{
+    width: 500px;
+}
+.left-section h1{
+    padding: 10px;
+    font-size: 36px;
+}
+.left-section h3{
+    padding: 10px;
+    font-size: 18px;
+}
+.left-section span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.left-section button{
+    padding: 20px;
+    color: blue;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+}
+.left-section img{
+    width: 400;
+
+}
+.white h1{
+    padding: 10px;
+    font-size: 36px;
+}
+.white h3{
+    padding: 10px;
+    font-size: 18px;
+}
+.white span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.white button{
+    padding: 20px;
+    color: blue;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+}
+.white img{
+    width: 400;
+
+}
+.bootstrap{
+    width: 100%;
+    padding-top: 50px;
+    height: fit-content;
+    
+}
+.terms-conditions{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+
+}
+.hr{
+    width: 100%;
+    height: 2px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer ul li{
+    list-style: none;
+    font-size: 12px;
+    color: gray;
+
+}
+.lower-section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+.last-part{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
